@@ -185,6 +185,11 @@ img {
   fill: #2196f3;
 }
 
+.header-address-link:focus .header-svg {
+  color: #757575;
+  fill: #2196f3;
+}
+
 /* HERO Section */
 
 h1 {
@@ -337,6 +342,47 @@ h2 {
   color: #ffffff;
 }
 
+.services-list-items {
+  position: relative;
+}
+
+.overlay-one {
+  position: absolute;
+  bottom: 0px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-two {
+  position: absolute;
+  bottom: 0px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-three {
+  position: absolute;
+  bottom: 0px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 27px;
+}
+
 /* OUR TEAM */
 
 h3 {
@@ -434,7 +480,8 @@ h3 {
   border-radius: 50%;
 }
 
-.social-list-item-link:hover {
+.social-list-item-link:hover,
+.social-list-item-link:focus {
   background-color: #2196f3;
 }
 
@@ -445,6 +492,11 @@ h3 {
 .social-list-item-link:hover .social-list-item-link-svg {
   fill: #ffffff;
 }
+
+.social-list-item-link:focus .social-list-item-link-svg {
+  fill: #ffffff;
+}
+
 /* OUR CLIENTS */
 
 .clients-title {
@@ -480,7 +532,8 @@ h3 {
   margin-right: 30px;
 }
 
-.clients-link-list:hover {
+.clients-link-list:hover,
+.clients-link-list:focus {
   background-color: #ffffff;
 }
 
@@ -512,10 +565,15 @@ h3 {
   height: 46px;
 }
 
-.clients-link-list:hover {
+.clients-link-list:hover,
+.clients-link-list:focus {
   border-color: #2196f3;
 }
 .clients-link-list:hover .clients-list-item-link-svg {
+  fill: #2196f3;
+}
+
+.clients-link-list:focus .clients-list-item-link-svg {
   fill: #2196f3;
 }
 
@@ -628,7 +686,8 @@ h3 {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-link-list:hover {
+.footer-link-list:hover,
+.footer-link-list:focus {
   background-color: #2196f3;
 }
 
@@ -640,7 +699,11 @@ h3 {
   fill: #ffffff;
 }
 
+.footer-link-list:focus .footer-list-item-link-svg {
+  fill: #ffffff;
+}
 /* PORTFOLIO */
+
 .filter-list {
   display: flex;
   justify-content: center;
@@ -738,7 +801,8 @@ h3 {
   box-sizing: border-box;
 }
 
-.list-portfolio-items:hover {
+.list-portfolio-items:hover,
+.list-portfolio-items:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
