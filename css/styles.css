@@ -853,18 +853,7 @@ h3 {
   margin-bottom: 94px;
 }
 
-.list-portfolio-items:hover .potrfolio-overlay {
-  top: 0;
-}
-
-.list-portfolio-items {
-  position: relative;
-  overflow: hidden;
-}
-
 .potrfolio-overlay {
-  position: absolute;
-  top: 100%;
   width: 370px;
   height: 294px;
   padding-top: 63px;
@@ -881,7 +870,7 @@ h3 {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
 }
 
 /*
