@@ -862,10 +862,6 @@ h3 {
   overflow: hidden;
 }
 
-.potrfolio-overlay {
-  overflow: hidden;
-  position: relative;
-}
 .portfolio-overlay-text {
   position: absolute;
   top: 0;
@@ -874,6 +870,7 @@ h3 {
   right: 0;
   transform: translateY(100%);
   background: rgba(33, 150, 243, 0.9);
+  color: #fff;
 }
 
 .product-list-item-link:hover .potrfolio-overlay {
