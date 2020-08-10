@@ -155,7 +155,7 @@ img {
   background-color: #188ce8;
 }
 
-.navigation-list-link::after {
+.current::after {
   width: 47px;
   height: 4px;
   background-color: #2196f3;
